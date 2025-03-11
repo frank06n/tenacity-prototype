@@ -23,7 +23,7 @@ const registeredEvents = [
     title: 'Tech Conference 2025',
     date: 'Apr 15-17, 2025',
     location: 'San Francisco, CA',
-    imageUrl: '/images/tech-conference.jpg',
+    imageUrl: '/images/tech-conference.webp',
     status: 'upcoming'
   },
   {
@@ -31,7 +31,7 @@ const registeredEvents = [
     title: 'Startup Pitch Competition',
     date: 'Jun 5, 2025',
     location: 'New York, NY',
-    imageUrl: '/images/startup-pitch.jpg',
+    imageUrl: '/images/startup-pitch.webp',
     status: 'upcoming'
   },
   {
@@ -39,7 +39,7 @@ const registeredEvents = [
     title: 'Virtual Reality Summit',
     date: 'Feb 12-13, 2025',
     location: 'Online',
-    imageUrl: '/images/vr-summit.jpg',
+    imageUrl: '/images/vr-summit.webp',
     status: 'completed'
   }
 ];
@@ -68,7 +68,7 @@ export default function ProfilePage() {
   const user = {
     name: 'Jane Smith',
     email: 'jane.smith@example.com',
-    avatar: '/images/avatar.jpg',
+    avatar: '/images/avatar.webp',
     bio: 'Tech enthusiast and event organizer. Love connecting with new people and learning new things.',
     location: 'San Francisco, CA',
     interests: ['Technology', 'Entrepreneurship', 'Music', 'Art'],

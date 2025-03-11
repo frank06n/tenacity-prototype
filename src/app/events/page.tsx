@@ -23,7 +23,7 @@ const allEvents: EventCardProps[] = [
     description: 'Join us for the biggest tech conference of the year. Network with industry experts and learn about the latest technologies.',
     date: 'Apr 15-17, 2025',
     location: 'San Francisco, CA',
-    imageUrl: '/images/tech-conference.jpg',
+    imageUrl: '/images/tech-conference.webp',
     category: 'Technology',
     featured: true
   },
@@ -33,7 +33,7 @@ const allEvents: EventCardProps[] = [
     description: 'A three-day music festival featuring top artists from around the world. Don\'t miss this amazing experience!',
     date: 'May 20-22, 2025',
     location: 'Austin, TX',
-    imageUrl: '/images/music-festival.jpg',
+    imageUrl: '/images/music-festival.webp',
     category: 'Entertainment',
     featured: true
   },
@@ -43,7 +43,7 @@ const allEvents: EventCardProps[] = [
     description: 'Watch innovative startups pitch their ideas to investors and compete for funding. Great networking opportunity.',
     date: 'Jun 5, 2025',
     location: 'New York, NY',
-    imageUrl: '/images/startup-pitch.jpg',
+    imageUrl: '/images/startup-pitch.webp',
     category: 'Business',
     featured: true
   },
@@ -53,7 +53,7 @@ const allEvents: EventCardProps[] = [
     description: 'Explore contemporary art from emerging artists. This exhibition showcases a diverse range of styles and mediums.',
     date: 'Apr 10-30, 2025',
     location: 'Chicago, IL',
-    imageUrl: '/images/art-exhibition.jpg',
+    imageUrl: '/images/art-exhibition.webp',
     category: 'Arts'
   },
   {
@@ -62,7 +62,7 @@ const allEvents: EventCardProps[] = [
     description: 'Run for a cause! Join this 5K charity run to support local education initiatives. All proceeds go to schools in need.',
     date: 'May 8, 2025',
     location: 'Seattle, WA',
-    imageUrl: '/images/charity-run.jpg',
+    imageUrl: '/images/charity-run.webp',
     category: 'Sports'
   },
   {
@@ -71,7 +71,7 @@ const allEvents: EventCardProps[] = [
     description: 'Learn how to cook authentic Italian dishes from a renowned chef. Limited spots available, register soon!',
     date: 'Apr 22, 2025',
     location: 'Boston, MA',
-    imageUrl: '/images/culinary-workshop.jpg',
+    imageUrl: '/images/culinary-workshop.webp',
     category: 'Food'
   },
   {
@@ -80,7 +80,7 @@ const allEvents: EventCardProps[] = [
     description: 'A family-friendly event showcasing science projects from local students. Fun activities for all ages!',
     date: 'Jun 12, 2025',
     location: 'Denver, CO',
-    imageUrl: '/images/science-fair.jpg',
+    imageUrl: '/images/science-fair.webp',
     category: 'Education'
   },
   {
@@ -89,7 +89,7 @@ const allEvents: EventCardProps[] = [
     description: 'A 48-hour coding challenge to build innovative solutions. Great prizes and networking opportunities.',
     date: 'May 15-17, 2025',
     location: 'Los Angeles, CA',
-    imageUrl: '/images/hackathon.jpg',
+    imageUrl: '/images/hackathon.webp',
     category: 'Technology'
   },
   {
@@ -98,7 +98,7 @@ const allEvents: EventCardProps[] = [
     description: 'Connect with leading employers in various industries. Bring your resume and be prepared for on-site interviews.',
     date: 'Jun 20, 2025',
     location: 'Philadelphia, PA',
-    imageUrl: '/images/career-expo.jpg',
+    imageUrl: '/images/career-expo.webp',
     category: 'Business'
   }
 ];

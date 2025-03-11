@@ -15,7 +15,7 @@ const featuredEvents: EventCardProps[] = [
         description: 'Join us for the biggest tech conference of the year. Network with industry experts and learn about the latest technologies.',
         date: 'Apr 15-17, 2025',
         location: 'San Francisco, CA',
-        imageUrl: '/images/tech-conference.jpg',
+        imageUrl: '/images/tech-conference.webp',
         category: 'Technology',
         featured: true
     },
@@ -25,7 +25,7 @@ const featuredEvents: EventCardProps[] = [
         description: 'A three-day music festival featuring top artists from around the world. Don\'t miss this amazing experience!',
         date: 'May 20-22, 2025',
         location: 'Austin, TX',
-        imageUrl: '/images/music-festival.jpg',
+        imageUrl: '/images/music-festival.webp',
         category: 'Entertainment',
         featured: true
     },
@@ -35,7 +35,7 @@ const featuredEvents: EventCardProps[] = [
         description: 'Watch innovative startups pitch their ideas to investors and compete for funding. Great networking opportunity.',
         date: 'Jun 5, 2025',
         location: 'New York, NY',
-        imageUrl: '/images/startup-pitch.jpg',
+        imageUrl: '/images/startup-pitch.webp',
         category: 'Business',
         featured: true
     }
@@ -66,7 +66,7 @@ export default function Home() {
                     <div
                         className="h-full w-full bg-gradient-to-r from-blue-500/20 to-purple-500/20"
                         style={{
-                            backgroundImage: "url('/images/hero-bg.jpg')",
+                            backgroundImage: "url('/images/hero-bg.webp')",
                             backgroundSize: 'cover',
                             backgroundPosition: 'center',
                             backgroundBlendMode: 'overlay'
