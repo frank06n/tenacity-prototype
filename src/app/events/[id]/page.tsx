@@ -49,7 +49,7 @@ const events = [
         date: 'Apr 15-17, 2025',
         time: '9:00 AM - 6:00 PM',
         location: 'Moscone Center, San Francisco, CA',
-        imageUrl: '/images/tech-conference.jpg',
+        imageUrl: '/images/tech-conference.webp',
         category: 'Technology',
         featured: true,
         organizerName: 'TechEvents Inc.',
