@@ -14,7 +14,7 @@ import { Checkbox } from '@/components/ui/checkbox';
 import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { CalendarIcon, MapPinIcon, SettingsIcon, LogOutIcon, BellIcon } from 'lucide-react';
+import { CalendarIcon, MapPinIcon, SettingsIcon } from 'lucide-react';
 
 // Mock data for registered events
 const registeredEvents = [
@@ -62,6 +62,7 @@ const item = {
 
 export default function ProfilePage() {
   const [activeTab, setActiveTab] = useState('overview');
+  console.log(activeTab);
   
   // Mock user data
   const user = {
@@ -179,7 +180,7 @@ export default function ProfilePage() {
                       
                       {registeredEvents.filter(event => event.status === 'upcoming').length === 0 && (
                         <div className="text-center py-8">
-                          <p className="text-muted-foreground">You haven't registered for any upcoming events yet.</p>
+                          <p className="text-muted-foreground">You haven&apos;t registered for any upcoming events yet.</p>
                           <Button asChild className="mt-4">
                             <Link href="/events">Explore Events</Link>
                           </Button>
